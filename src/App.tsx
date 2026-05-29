@@ -5,15 +5,6 @@ export default function App() {
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-[#074EA2]/15 rounded-full blur-[120px] pointer-events-none animate-pulse duration-[6000ms]"></div>
       <div className="absolute bottom-1/4 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-[#E60693]/10 rounded-full blur-[120px] pointer-events-none animate-pulse duration-[8000ms]"></div>
 
-      {/* Large background logo watermark */}
-      <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none opacity-[0.12] z-0">
-        <img 
-          src="https://upload.wikimedia.org/wikipedia/en/6/60/Rajasthan_Royals_Logo.svg" 
-          alt="Rajasthan Royals Watermark" 
-          className="w-[500px] h-[500px] object-contain max-w-[90%] md:max-w-full animate-[spin_120s_linear_infinite]"
-        />
-      </div>
-
       <div className="max-w-md w-full text-center z-10 space-y-8">
         {/* Header Title with Official Colors Gradient */}
         <h1 className="text-2xl font-black tracking-widest bg-gradient-to-r from-blue-400 via-[#E60693] to-[#C3A11F] bg-clip-text text-transparent uppercase drop-shadow-sm">
